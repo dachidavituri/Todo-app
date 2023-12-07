@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@100;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@800&family=Open+Sans&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Poppins:wght@500;600;700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&family=Roboto+Condensed:wght@700&family=Space+Mono:wght@700&family=Work+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@100;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@800&family=Open+Sans&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Poppins:wght@500;600;700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&family=Roboto+Condensed:wght@700&family=Russo+One&family=Space+Mono:wght@700&family=Work+Sans:wght@400;600;700&display=swap");
+.todoContainer {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 430px;
+  background-color: white;
+  min-height: 500px;
+}
+.main-section {
+  padding: 23px 24px 78px 24px;
+}
+.add-section {
+  display: flex;
+  gap: 10px;
+}
+.task-content {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-content p {
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 500;
+}
+.add-input-section {
+  padding: 14px;
+  text-align: left;
+  border-radius: 5px;
+  background: #ebeff2;
+  outline: none;
+  border: none;
+  color: #888;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  background-image: url("./Images/akar-icons_circle.png");
+  background-repeat: no-repeat;
+  background-position: 14px;
+  padding-left: 45px;
+  width: 75%;
+}
+.add-btn {
+  border-radius: 5px;
+  background: #20eeb0;
+  border: none;
+  width: 88px;
+  cursor: pointer;
+  background-image: url("./Images/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.field {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: 250px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 150px;
+  right: 28px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+.day-week {
+  color: #fff;
+  font-family: "Russo One", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+}
+.clock-display {
+  color: #fff;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.clock-display h2 {
+  font-size: 48px;
+}
+.comp-del-section {
+  display: flex;
+  gap: 14px;
+}
+.comp-del-section div {
+  cursor: pointer;
+}
